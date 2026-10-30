@@ -44,9 +44,6 @@ The responsive Streamlit interface provides six workspaces:
 1. Save screenshots as `docs/screenshots/overview.png`, `docs/screenshots/ai-investigator.png`, and `docs/screenshots/evaluation-lab.png`.
 2. Uncomment the image lines below after those files exist:
 
-<!-- ![SchemaGuard Command Center overview](docs/screenshots/overview.png) -->
-<!-- ![Real Qwen3 tool call and LangGraph trace](docs/screenshots/ai-investigator.png) -->
-<!-- ![Synthetic data corruption benchmark](docs/screenshots/evaluation-lab.png) -->
 
 ## Features
 
