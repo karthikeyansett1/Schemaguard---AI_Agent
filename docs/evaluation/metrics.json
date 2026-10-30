@@ -1,0 +1,9 @@
+{
+  "benchmark_type": "synthetic_detection_rules",
+  "injected_corruptions": 20,
+  "detected_corruptions": 18,
+  "injected_case_recall": 0.9,
+  "clean_control_snapshots": 20,
+  "clean_snapshot_flag_rate": 0.0,
+  "warning": "Not real-world accuracy and not live LLM evaluation"
+}

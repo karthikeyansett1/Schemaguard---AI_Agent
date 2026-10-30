@@ -1,0 +1,10 @@
+streamlit>=1.38,<2
+pandas>=2.2,<3
+numpy>=1.26,<3
+scipy>=1.12,<2
+statsmodels>=0.14,<1
+plotly>=5.22,<7
+ollama>=0.4,<2
+pytest>=8,<10
+langgraph>=1.0,<2
+langsmith>=0.4,<1
