@@ -16,7 +16,7 @@
 
 </div>
 
-> **Public demo:** Deployment URL to be added after Streamlit Community Cloud deployment. The public app can run deterministic data analysis without an API key. **Real Qwen3 agent investigations require local Ollama** in the supplied setup.
+> **Public demo:** schemaguardaiagent.streamlit.app **Real Qwen3 agent investigations require local Ollama** in the supplied setup.
 
 ## The problem
 
