@@ -1,0 +1,39 @@
+/* SchemaGuard AI — Command Center / Dark Operations */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap');
+:root { color-scheme: dark; }
+html, body, [data-testid="stAppViewContainer"], .stApp {background: #080E1A !important;color: #E6F0FC; font-family: 'DM Sans', sans-serif;}
+[data-testid="stAppViewContainer"] {background-image: radial-gradient(circle at 90% 0%, rgba(81,56,180,.15),transparent 33%),radial-gradient(circle at 10% 40%,rgba(34,211,238,.06),transparent 35%) !important;}
+[data-testid="stHeader"] {background: transparent !important;}
+[data-testid="stSidebar"] {background: #0D1628 !important;border-right: 1px solid #22314B;}
+[data-testid="stSidebar"] > div:first-child {padding-top: 1.5rem;}
+.block-container {padding-top: 2rem !important;padding-bottom: 2rem !important;max-width: 1480px !important;}
+h1,h2,h3,h4 {font-family:'Space Grotesk',sans-serif !important;letter-spacing:-.025em !important;color:#F4F7FF !important;}
+h1 {font-weight:700 !important;font-size: clamp(2.0rem,3vw,3.0rem) !important;margin:.2rem 0 .4rem !important;}
+h4 {font-size:1.05rem !important;}
+p, label {color:#C4D0E1;}
+.brand-mark {font-size:1.15rem;font-family:'Space Grotesk',sans-serif;font-weight:700;letter-spacing:.065em;color:#F0F7FF;margin-bottom:.2rem;}
+.brand-mark span {color:#39D9F2;}
+.eyebrow {color:#67E8F9;font-size:.72rem;font-weight:800;letter-spacing:.18em; margin-bottom:.5rem;}
+.section-heading {border:1px solid #23334E;background:linear-gradient(110deg,#111E34 0%,#11152C 65%,#191434 100%);border-radius:18px;padding:26px 30px;margin-bottom:24px;position:relative;overflow:hidden;}
+.section-heading:before {content:'';position:absolute;right:0;top:0;bottom:0;width:3px;background:linear-gradient(#41D9F2,#9A7CFF);}
+.section-heading p {font-size:.97rem;color:#A7B9D0;margin-bottom:0;}
+.topbar {display:flex;justify-content:space-between;gap:10px;color:#91A8C4;font-size:.68rem;letter-spacing:.12em;font-weight:800;margin-bottom:16px;}
+.topbar span:first-child {color:#34D399;}
+[data-testid="stMetric"] {border:1px solid #273850;border-radius:15px;background:linear-gradient(140deg,#142238,#10182B);padding:18px 20px;min-height:116px;box-shadow:0 6px 18px rgba(0,0,0,.12);}
+[data-testid="stMetricLabel"] {color:#9BB0CB !important;font-size:.71rem !important;font-weight:800;letter-spacing:.1em;}
+[data-testid="stMetricValue"] {color:#F2F7FF !important;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:2rem !important;}
+[data-testid="stVerticalBlockBorderWrapper"] {border-color:#263752 !important;}
+[data-testid="stDataFrame"] {border:1px solid #283951;border-radius:12px;overflow:hidden;}
+[data-testid="stFileUploader"] {border-radius:12px;}
+[data-testid="stFileUploaderDropzone"] {background:#121F32 !important;border:1px dashed #42607C !important;border-radius:12px !important;}
+[data-testid="stButton"] button[kind="primary"],button[kind="primary"] {background:linear-gradient(100deg,#22C9E2,#7A75F4) !important;color:#06101A !important;border:none !important;font-weight:800 !important;}
+[data-testid="stButton"] button {border-radius:10px !important;transition:filter .2s ease,transform .2s ease !important;}
+[data-testid="stButton"] button:hover {filter:brightness(1.12);transform:translateY(-1px);}
+[data-testid="stDownloadButton"] button {border:1px solid #34516D !important;background:#142239 !important;border-radius:10px !important;color:#C9EFFF !important;}
+[data-testid="stRadio"] div[role="radiogroup"] label {border-radius:10px;padding:.32rem .5rem;}
+[data-testid="stRadio"] div[role="radiogroup"] label:hover {background:#192940;}
+[data-testid="stAlert"] {border-radius:11px;}
+[data-testid="stExpander"] {border:1px solid #253650 !important;border-radius:12px !important;background:#101A2D !important;}
+[data-testid="stTextArea"] textarea,[data-testid="stSelectbox"]>div {border-radius:10px !important;background-color:#111D31 !important;}
+.footerline {font-size:.65rem;letter-spacing:.12em;color:#6E84A3;padding-top:20px;margin-top:32px;border-top:1px solid #213149;text-align:center;}
+@media(max-width:800px) {.block-container{padding:1.3rem .8rem !important}.section-heading{padding:20px 18px}.topbar{font-size:.58rem}.brand-mark{font-size:1rem}}
