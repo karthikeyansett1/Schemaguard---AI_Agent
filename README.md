@@ -39,10 +39,9 @@ The responsive Streamlit interface provides six workspaces:
 | **SQL Workspace** | Generated validation checks and controlled local read-only SQL |
 | **Reports** | Export investigation and evaluation evidence |
 
-**Add your actual UI screenshots before publishing the finished portfolio:**
-
-1. Save screenshots as `docs/screenshots/overview.png`, `docs/screenshots/ai-investigator.png`, and `docs/screenshots/evaluation-lab.png`.
-2. Uncomment the image lines below after those files exist:
+<img src="docs/screenshots/overview.png" alt="App Screenshot" width="500">
+<img src="docs/screenshots/ai-investigator.png" alt="App Screenshot" width="500">
+<img src="docs/screenshots/evaluation-lab.png" alt="App Screenshot" width="500">
 
 
 ## Features
